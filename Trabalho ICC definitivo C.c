@@ -4,7 +4,7 @@ Listar os Produto (em Ordem Alfabética ou Por Preço, bem como agrupar por Tipo
 Cada Produto será composto de Nome (até 100 caracteres), Tipo (até 50 caracteres), Preço 
 (até 10 dígitos), Local de Estoque (até 50 caracteres) e identificador (até 10 dígitos). */
 
-//trabalho feito pelos alunos do curso de Ciência da Computação da UECE Tales Santiago e Riquelme Jatay.
+//trabalho feito em conjunto pelos alunos do curso de Ciência da Computação da UECE Tales Santiago e Riquelme Jatay.
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
