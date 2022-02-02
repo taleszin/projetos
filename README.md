@@ -1,3 +1,3 @@
 
 Todos os projetos e atividades de programação
-os quais eu fiz parte.
+os quais eu criei ou participei da criação.
