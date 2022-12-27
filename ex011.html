@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidades</title>
+    <style>
+    body{
+        background-color: coral;
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    </style>
+</head>
+<body>
+    
+    <h1>Qual país você nasceu ?</h1>
+    <input type="text" maxlength ="18" name="txtNac" id="nac1">
+    <input type="button" value="Verificar Nacionalidade" onclick = "verificar()">
+    <div id = Resultado></div>
+    <script>
+        // a div Resultado é criada para que possamos escrever nela.
+        function verificar(){
+        var nac = window.document.getElementById('nac1') // pegando o valor da caixa de texto
+        var nac2 = String(nac.value).toLowerCase() //jogando o nome para letras minusculas pois assim de qualquer forma que brasileiro for escrito será reconhecido.
+        Resultado.innerHTML =`Sua nacionalidade é ${nac2}`
+        if(nac2 === 'brasil'){
+            Resultado.innerHTML =`Voce é Brasileiro`
+        }
+        else{
+            Resultado.innerText = 'Voce é estrangeiro'
+        }
+        }
+    </script>
+</body>
+</html>
